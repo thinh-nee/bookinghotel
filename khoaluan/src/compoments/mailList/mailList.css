@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+.mail {
+  background: #07108a;
+  color: #fff;
+  text-align: center;
+
+  width: 100%;
+  padding: 28px 16px;
+  margin: 20px auto;
+ 
+  border-radius: 8px;
+  position: relative;    
+  overflow: visible;
+}
+
+.mailInputContainer>input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.mailInputContainer>button{
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
